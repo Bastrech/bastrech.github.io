@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Bastrech</title>
+	<meta name="description" content="TiRum's Promo - Web Developing. Craation Landing Pages and Company Websites.">
+	<link rel="icon" type="image/ico" href="favicon.ico">
+<style type="text/css">
+ * {margin: 0;padding: 0;box-sizing: border-box;font-family: Arial, Helvetica, sans-serif;}
+ body {background: #0f1114;}
+ header {
+    margin: 10px auto;
+    width: 720px;
+ }
+ header img {
+    width: 100%; height: auto; border-radius: 25px;
+ }
+#sec_desc {
+    width: 720px; margin: 0 auto; padding: 0 20px;
+    color: #ccc; font-size: 16px; line-height: 1.3em;
+}
+ #sec_links  {
+    width: 720px;
+    margin: 0 auto;    
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+ }
+h1 {
+    text-align: center;
+    color: #ffb000; text-transform: uppercase; font-size: 23px;
+    background: linear-gradient(to top, #21232c, #2e313f); border-radius: 25px; padding: 5px; margin: 36px 0 10px 0;
+ }
+ h2 {
+    text-align: center;
+    color: #616788; font-size: 16px;
+    background: #090a0c; border-radius: 25px; padding: 10px; margin: 20px 0;
+    text-transform: uppercase;
+ }
+ .dn_link {display: flex;margin: 0 20px; gap:10px;}
+ .dn_link_name {color: #1a75d5;width: 150px;text-align: right;}
+ .dn_link_link {color: #333; flex: 1; outline: none; font-size: 13px; line-height: 20px; padding-left: 5px; border: 0;}
+ .dn_link_link:hover, .dn_link_link:focus {background: #dbdfb9;}
+
+ .ch_link {display: flex; justify-content: space-around; font-weight: bold;}
+ .ch_link a {text-decoration: none; width: 30%; padding: 0px; margin: 0; line-height: 1em; text-align: center; border-radius: 16px; font-size: 16px; line-height: 32px;}
+ .ch_link a:hover {background-color: #1a1d22;background-size: 30px; font-size: 18px;}
+ .ch_link p {text-decoration: none; width: 30%; padding: 10px; margin: 0; line-height: 1em; text-align: center; border-radius: 16px; color: #ccc;}
+ .ch_link_tg {background: #090a0c url('ch_icon_tg.png') no-repeat 5px center; background-size: 24px; color:#1a75d5;}
+ .ch_link_yt {background: #090a0c url('ch_icon_yt.png') no-repeat 5px center; background-size: 24px; color:#d51a33;}
+ .ch_link_tt {background: #090a0c url('ch_icon_tt.png') no-repeat 5px center; background-size: 24px; color:#c51ad5;}
+</style>   
+</head>
+<body>
+    <header><img src="header.png" alt=""></header>
+    <section id="sec_desc">
+        Welcome to my channel! If you're here, it means you enjoy my work and want to support my growth. On this page, you'll find my crypto wallets - just click on the wallet address, and it will be automatically copied to your clipboard for your convenience. Thanks in advance for your support and I hope my content continues to bring you good vibes and value!</section>
+    <section id="sec_links">
+        <h1>DONATION CRYPTO</h1>
+           <div class="dn_link"><p class="dn_link_name">BitCoin</p><input class="dn_link_link" type="text" onclick="copyToClipbrd(this)" value="1AUbh56fc9xyMJdQdkKCMimqxmvZAFfgSE"></div>
+        <div class="dn_link"><p class="dn_link_name">USDT TRC20</p><input class="dn_link_link" type="text" onclick="copyToClipbrd(this)" value="TVb75VtoNf7NXBnz94QTsPMYB1Me3PEkwA"></div>
+          <div class="dn_link"><p class="dn_link_name">USDT TON</p><input class="dn_link_link" type="text" onclick="copyToClipbrd(this)" value="UQDY7amSQ0gX7pduf-c8ucGV1ZRDuvS73eCbkKNdetkhJcDf"></div>
+           <div class="dn_link"><p class="dn_link_name">TonCoin</p><input class="dn_link_link" type="text" onclick="copyToClipbrd(this)" value="UQDY7amSQ0gX7pduf-c8ucGV1ZRDuvS73eCbkKNdetkhJcDf"></div>
+           <div class="dn_link"><p class="dn_link_name">NotCoin</p><input class="dn_link_link" type="text" onclick="copyToClipbrd(this)" value="UQDY7amSQ0gX7pduf-c8ucGV1ZRDuvS73eCbkKNdetkhJcDf"></div>
+     <div class="dn_link"><p class="dn_link_name">HamsterKombat</p><input class="dn_link_link" type="text" onclick="copyToClipbrd(this)" value="UQDY7amSQ0gX7pduf-c8ucGV1ZRDuvS73eCbkKNdetkhJcDf"></div>
+    </section>
+    <section id="sec_links">
+        <h1>My Main Channels</h1>
+           <div class="ch_link">
+            <a class="ch_link_tg" href="https://t.me/Bastrech" title="Bastrech On Telegram">Bastrech</a>
+            <a class="ch_link_yt" href="https://www.youtube.com/@Bastrech" title="Bastrech On YouTube">Bastrech</a>
+            <a class="ch_link_tt" href="https://www.tiktok.com/@bastrech" title="Bastrech On TikTok">Bastrech</a>
+           </div>
+
+         <h1>My Other Channels</h1>
+            <div class="ch_link">
+            <p>Humor For Relax</p>
+            <p>Amazing Animals</p>
+            <p>Power Of Words</p>
+            </div>
+            <div class="ch_link">
+            <a class="ch_link_tg" href="https://t.me/ViPiFun" title="ViPiFun On Telegram">ViPiFun</a>
+            <a class="ch_link_tg" href="https://t.me/ViPiPet" title="ViPiPet On Telegram">ViPiPet</a>
+            <a class="ch_link_tg" href="https://t.me/ViPiTok" title="ViPiTok On Telegram">ViPiTok</a>
+            </div>
+            <div class="ch_link">
+            <a class="ch_link_yt" href="https://www.youtube.com/@ViPiFun" title="ViPiFun On YouTube">ViPiFun</a>
+            <a class="ch_link_yt" href="https://www.youtube.com/@ViPiPet" title="ViPiPet On YouTube">ViPiPet</a>
+            <a class="ch_link_yt" href="https://www.youtube.com/@ViPiTok" title="ViPiTok On YouTube">ViPiTok</a>
+            </div>
+
+        <h2>2024 © Created by Bastrech</h2>
+    </section>
+
+<script>
+    function copyToClipbrd(input) {
+    // Выделяем текст в поле
+    input.select();
+    input.setSelectionRange(0, 99999); // Для мобильных устройств
+
+    // Копируем текст в буфер обмена
+    document.execCommand("copy");
+}
+</script>
+</body>
+</html>
