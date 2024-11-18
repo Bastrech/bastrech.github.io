@@ -8,7 +8,7 @@
 	<meta name="description" content="TiRum's Promo - Web Developing. Craation Landing Pages and Company Websites.">
 	<link rel="icon" type="image/ico" href="favicon.ico">
 <style type="text/css">
- * {margin: 0;padding: 0;box-sizing: border-box;font-family: Arial, Helvetica, sans-serif;}
+ * {margin: 0;padding: 0;box-sizing: border-box;font-family: Arial, Helvetica, sans-serif; transition: 0.3s;}
  body {background: #0f1114;}
  header {
     margin: 10px auto;
@@ -23,6 +23,15 @@
 }
 #sec_desc p {margin: 1em 0}
 #sec_desc p:last-of-type {margin: 0;}
+#donPageLink {text-align: center;}
+#donPageLink a {
+    display:inline-block; height: 32px; line-height: 32px; 
+    padding: 0 10px;
+    background: #1a75d5;
+    border: 0; border-radius: 16px;
+    color: #ffb000; font-family: Arial, Helvetica, sans-serif; font-weight: bold; text-decoration: none;
+}
+#donPageLink a:hover {background: #ffa600; color:#d51a33;}
  #sec_links  {
     width: 720px;
     margin: 0 auto;    
@@ -66,10 +75,10 @@ h1 {
 
         <p>Thanks in advance for your support, and I hope my content continues to bring you good vibes and value!</p>
 
-        <p>Donation Page: <a href="https://www.donationalerts.com/r/bastrech">DonationAlerts</a></p>
+        <p id="donPageLink"><a href="https://www.donationalerts.com/r/bastrech" title="Donate on DonationAlerts.Com">💰 Donate on DonationAlerts.Com 💰</a></p>
     </section>
     <section id="sec_links">
-        <h1>DONATION CRYPTO</h1>
+        <h1>DONATE TO CRYPTO WALLETS</h1>
            <div class="dn_link"><p class="dn_link_name">BitCoin</p><input class="dn_link_link" type="text" onclick="copyToClipbrd(this)" value="1AUbh56fc9xyMJdQdkKCMimqxmvZAFfgSE"></div>
         <div class="dn_link"><p class="dn_link_name">USDT TRC20</p><input class="dn_link_link" type="text" onclick="copyToClipbrd(this)" value="TVb75VtoNf7NXBnz94QTsPMYB1Me3PEkwA"></div>
           <div class="dn_link"><p class="dn_link_name">USDT TON</p><input class="dn_link_link" type="text" onclick="copyToClipbrd(this)" value="UQDY7amSQ0gX7pduf-c8ucGV1ZRDuvS73eCbkKNdetkhJcDf"></div>
